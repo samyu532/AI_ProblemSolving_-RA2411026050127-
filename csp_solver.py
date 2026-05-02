@@ -48,7 +48,7 @@ def parse_puzzle(puzzle: str):
         leading_letters.add(word[0])
 
     return lhs_words, operators, rhs_word, all_letters, leading_letters
-
+#used for crypt arithmetic problems to solve easily
 
 def word_to_number(word: str, assignment: dict) -> int:
     """Convert a word to its numeric value given a digit assignment."""
